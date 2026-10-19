@@ -1,0 +1,42 @@
+body {
+    background-color: #F8F1B7;
+    color: #8C5221;
+}
+
+.naslov {
+    font-size: 4rem;
+    font-family: 'Georgia', serif;
+    color: #A0522D;
+}
+
+/* Stil za Bootstrap .card */
+.card {
+    background-color: #B26A2C;
+    color: #FFF3C4;
+}
+
+.card .card-title,
+.card .card-text {
+    color: #FFF3C4;
+}
+
+/* Paginacija */
+.paginacija a, .paginacija span {
+    color: #8C5221;
+    font-weight: 500;
+}
+
+.paginacija .stran {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.paginacija .stran.aktivna {
+    background-color: #8C5221;
+    color: #FFF;
+}
